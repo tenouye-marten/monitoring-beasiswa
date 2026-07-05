@@ -26,7 +26,7 @@ Pastikan perangkat telah terinstal aplikasi berikut.
 | Visual Studio Code | Terbaru |
 | PHP | 8.2.x |
 | Composer | 2.8.x atau terbaru |
-| Node.js | 22.x LTS |
+| Node.js | 24.x LTS |
 | npm | 10.x atau terbaru |
 | XAMPP | 8.2.x |
 | Git | 2.45.x atau terbaru |
