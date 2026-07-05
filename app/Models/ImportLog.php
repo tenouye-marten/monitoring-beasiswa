@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ImportLog extends Model
+{
+    protected $fillable = [
+
+        'user_id',
+
+        'nama_file',
+
+        'total_data',
+
+        'berhasil',
+
+        'duplikat',
+
+        'gagal',
+
+        'tanggal_import'
+
+    ];
+
+
+    public function user()
+{
+    return $this->belongsTo(User::class);
+}
+
+
+}
