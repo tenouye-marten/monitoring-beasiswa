@@ -64,13 +64,7 @@
 
                       
 
-                        <x-nav-link
-                            :href="route('mahasiswa.penggunaan-beasiswa.index')"
-                            :active="request()->routeIs('mahasiswa.penggunaan-beasiswa.*')">
-
-                            Penggunaan Dana
-
-                        </x-nav-link>
+             
 
                         <x-nav-link
                             :href="route('monitoring.penggunaan-beasiswa.index')"
